@@ -1,1 +1,9 @@
+Parte 2 – O que acontece se...
 
+Se o banco de dados sair do ar, o usuário ainda consegue abrir o aplicativo e ver os botões e as telas. Isso acontece porque essas partes pertencem à camada de apresentação.
+
+Porém, algumas funções deixam de funcionar. Por exemplo, o usuário não conseguirá carregar conversas antigas ou enviar mensagens, pois essas informações dependem da camada de dados.
+
+Se quisermos mudar a cor dos botões do aplicativo, essa alteração deve ser feita na camada de apresentação, já que ela é responsável pela aparência visual do sistema. Essa mudança não interfere na lógica de funcionamento do aplicativo.
+
+Agora imagine que surge uma nova regra: mensagens só podem ter até 500 caracteres. Nesse caso, a alteração deve ser feita na camada de negócio, pois é ela que define as regras do sistema.
