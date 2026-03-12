@@ -1,1 +1,12 @@
+Parte 1 – Mapa das Camadas
 
+Em uma arquitetura em camadas, o sistema é dividido em três partes principais: apresentação, negócio e dados.
+
+A camada de apresentação é tudo aquilo que o usuário vê e com que ele interage.
+No caso de um aplicativo de mensagens, isso inclui a tela de conversas, o campo para digitar mensagens, o botão de enviar mensagem e a lista de contatos.
+
+A camada de negócio é responsável pelas regras do sistema. No aplicativo de mensagens, essa camada cuida de coisas como enviar a mensagem para o destinatário correto, verificar se o usuário está online, entregar a mensagem ao servidor e mostrar se a mensagem foi entregue ou lida.
+
+Já a camada de dados é onde as informações ficam armazenadas. Nesse caso, ficam guardados os dados dos usuários, as mensagens enviadas, as listas de contatos e informações da conta.
+
+Essa separação ajuda o sistema a ficar mais organizado e facilita futuras alterações.
