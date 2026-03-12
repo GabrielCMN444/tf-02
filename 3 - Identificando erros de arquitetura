@@ -1,1 +1,9 @@
+Parte 3 – Identificando erros de arquitetura
 
+Imagine a situação em que o botão de enviar mensagem faz o cálculo de regras e salva diretamente no banco de dados.
+
+Isso é considerado um erro de arquitetura, pois a camada de apresentação estaria realizando tarefas que pertencem à camada de negócio e à camada de dados. Essa mistura de responsabilidades deixa o sistema mais difícil de manter e pode gerar erros no futuro.
+
+Em outra situação, imagine que o banco de dados decide que as datas devem aparecer no formato dia/mês/ano na tela do celular.
+
+Isso também não é correto, porque o banco de dados deve apenas armazenar as informações. A responsabilidade de decidir como os dados aparecem para o usuário pertence à camada de apresentação.
