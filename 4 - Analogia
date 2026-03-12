@@ -1,1 +1,11 @@
+Parte 4 – Analogia
 
+Uma forma simples de entender as três camadas é comparando o sistema com um restaurante.
+
+A camada de apresentação seria o garçom, que conversa com o cliente e recebe o pedido.
+
+A camada de negócio seria a cozinha, onde os cozinheiros seguem regras e preparam a comida.
+
+A camada de dados seria o estoque, onde ficam guardados os ingredientes.
+
+Cada parte tem sua função específica. O garçom não cozinha e o estoque não atende clientes. Da mesma forma, em um sistema de software cada camada deve cuidar apenas da sua responsabilidade.
